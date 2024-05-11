@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
+
+@layer base {
+    html {
+        font-family: 'Plus Jakarta Display', sans-serif;
+    }
+}
