@@ -1,3 +1,5 @@
+AOS.init();
+
 let menulist = document.querySelector(".menu-list");
 let menuicon = document.querySelector(".menu-icon");
 let line1 = document.querySelector(".line1");
