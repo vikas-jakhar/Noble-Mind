@@ -1,4 +1,4 @@
-AOS.init();
+AOS.init({ once: true });
 
 let menulist = document.querySelector(".menu-list");
 let menuicon = document.querySelector(".menu-icon");
