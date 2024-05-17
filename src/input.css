@@ -9,3 +9,7 @@
         font-family: 'Plus Jakarta Display', sans-serif;
     }
 }
+
+::-webkit-scrollbar{
+    display: none;
+}

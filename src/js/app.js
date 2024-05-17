@@ -15,4 +15,13 @@ menuicon.addEventListener("click", function () {
     line3.classList.toggle("top-0");
     line3.classList.toggle("bottom-0");
     menuicon.classList.toggle("top-3");
-})
+});
+
+
+const preloader = document.querySelector(".preloader");
+
+preloader.style.display = "grid";
+
+setTimeout(() => {
+    preloader.style.display = "none"
+}, 1000);
