@@ -13,7 +13,7 @@
 
 <body>
     <!-- header -->
-    <header class="w-full py-2 bg-[#FDFCFC]" id="header1">
+    <header class="w-full py-2 bg-[#FDFCFC] navbar z-10" id="header1">
         <div class="container mx-auto px-3 relative z-10">
             <nav class="flex justify-between items-center">
                 <a href="#header1">
@@ -37,13 +37,13 @@
                 <button
                     class="font-bold text-base text-[#FDFCFC] w-[169px] h-14 rounded-[61px] cursor-pointer bg-[linear-gradient(130.88deg,_#A854E9_9.14%,_#4F91FC_283.16%)] hover:scale-105 duration-300 ease-linear hover:shadow-lg hidden sm:block">Contact
                     Us</button>
-                <div class="flex flex-col justify-between w-5 h-4 md:w-7 md:h-6 lg:hidden menu-icon z-30 relative">
+                <div class="flex flex-col justify-between w-7 h-6 lg:hidden menu-icon z-30 relative">
                     <span
-                        class="flex bg-[linear-gradient(130.88deg,_#A854E9_9.14%,_#4F91FC_283.16%)] w-full h-1 rounded-sm md:  absolute top-0 line1 duration-300 ease-linear"></span>
+                        class="flex bg-black w-full h-1 rounded-sm md:  absolute top-0 line1 duration-300 ease-linear"></span>
                     <span
-                        class="flex bg-[linear-gradient(130.88deg,_#A854E9_9.14%,_#4F91FC_283.16%)] w-full h-1 rounded-sm md: absolute top-1/2 -translate-y-1/2 line-center duration-300 ease-linear"></span>
+                        class="flex bg-black w-full h-1 rounded-sm md: absolute top-1/2 -translate-y-1/2 line-center duration-300 ease-linear"></span>
                     <span
-                        class="flex bg-[linear-gradient(130.88deg,_#A854E9_9.14%,_#4F91FC_283.16%)] w-full h-1 rounded-sm md: absolute bottom-0 line3 duration-300 ease-linear"></span>
+                        class="flex bg-black w-full h-1 rounded-sm md: absolute bottom-0 line3 duration-300 ease-linear"></span>
                 </div>
             </nav>
         </div>
@@ -70,9 +70,9 @@
                             class="absolute top-0 left-0 hidden md:flex">
                         <div class="w-full h-full md:overflow-hidden rounded-2xl relative z-[1]">
                             <img src="./src/assets/image/png/group-img-sec1.png" alt="group-img-sec1"
-                                class="w-full h-full duration-300 ease-linear hover:scale-105">
+                                class="w-full duration-300 ease-linear hover:scale-105">
                             <div
-                                class="md:absolute relative z-[1] top-6 md:top-auto w-full max-w-[997px] md:min-h-16 lg:h-28 flex justify-center items-center bg-[#9164EE] md:bg-transparent backdrop-blur-xl shadow-md md:w-11/12 xl:w-full left-1/2 -translate-x-1/2 md:bottom-4 lg:bottom-[52px] rounded-xl">
+                                class="md:absolute relative z-[1] top-6 md:top-auto w-full max-w-[997px] md:min-h-16 lg:h-28 hidden md:flex justify-center items-center bg-[#9164EE] md:bg-transparent backdrop-blur-xl shadow-md md:w-11/12 xl:w-full left-1/2 -translate-x-1/2 md:bottom-4 lg:bottom-[52px] rounded-xl">
                                 <div class="flex flex-row flex-wrap -mx-3 py-3 w-full relative">
                                     <div class="md:w-4/12 w-full mt-6 md:mt-0 px-3 flex justify-center items-center">
                                         <div class="flex items-center max-w-[206px]">
@@ -109,7 +109,37 @@
                             class="absolute bottom-0 right-0 hidden md:flex">
                     </div>
                 </div>
-                <div class="flex justify-center mt-56 md:mt-4">
+                <div
+                    class="md:absolute md:hidden relative z-[1] top-6 md:top-auto w-full max-w-[997px] md:min-h-16 lg:h-28 flex justify-center items-center bg-[#9164EE] md:bg-transparent backdrop-blur-xl shadow-md md:w-11/12 xl:w-full left-1/2 -translate-x-1/2 md:bottom-4 lg:bottom-[52px] rounded-xl">
+                    <div class="flex flex-row flex-wrap -mx-3 py-3 w-full relative">
+                        <div class="md:w-4/12 w-full md:mt-0 px-3 flex justify-center items-center">
+                            <div class="flex items-center max-w-[206px]">
+                                <span class="text-[#FDFCFC] md:text-4xl lg:text-5xl xl:text-6xl font-bold">8+</span>
+                                <p class="text-white font-normal md:text-base lg:text-lg">Years of
+                                    Experience</p>
+                            </div>
+                        </div>
+                        <div class="md:w-4/12 w-full mt-6 md:mt-0 px-3 flex justify-center items-center">
+                            <div class="flex items-center max-w-[206px]">
+                                <span class="text-[#FDFCFC] md:text-4xl lg:text-5xl xl:text-6xl font-bold">50+</span>
+                                <p class="text-white font-normal md:text-base lg:text-lg">Successful
+                                    Projects</p>
+                            </div>
+                        </div>
+                        <div class="md:w-4/12 w-full mt-6 md:mt-0 px-3 flex justify-center items-center">
+                            <div class="flex items-center max-w-[206px]">
+                                <span class="text-[#FDFCFC] md:text-4xl lg:text-5xl xl:text-6xl font-bold">30+</span>
+                                <p class="text-white font-normal md:text-base lg:text-lg">Satisfied
+                                    Customers</p>
+                            </div>
+                        </div>
+                        <span
+                            class="flex absolute top-1/2 -translate-y-1/2 md:left-[27.2%] left-0 lg:left-[29.4%] h-[2px] w-[81px] rotate-90 bg-[linear-gradient(270deg,_rgba(253,_252,_252,_0)_0%,_#FDFCFC_51.55%,_rgba(253,_252,_252,_0)_100%)]"></span>
+                        <span
+                            class="flex absolute top-1/2 -translate-y-1/2 md:right-[27%] right-0 lg:right-[29.4%] h-[2px] w-[81px] rotate-90 bg-[linear-gradient(270deg,_rgba(253,_252,_252,_0)_0%,_#FDFCFC_51.55%,_rgba(253,_252,_252,_0)_100%)]"></span>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-16 md:mt-4">
                     <button
                         class="text-[#FDFCFC] font-bold text-base w-[174px] h-14 bg-[linear-gradient(130.88deg,_#A854E9_9.14%,_#4F91FC_283.16%)] rounded-[61px] duration-300 ease-linear hover:shadow-lg hover:text-[#9164EE] hover:bg-none hover:bg-lime-300">Get
                         Started</button>
@@ -814,7 +844,7 @@
     <footer class="bg-black pt-10 pb-1" id="footer1">
         <div class="container mx-auto px-3 relative z-[2] pt-10">
             <div class="flex flex-wrap flex-row -mx-3">
-                <div class="lg:w-4/12 md:w-full mt-6 px-3">
+                <div class="lg:w-5/12 md:w-full mt-6 px-3">
                     <a href="./index.html" class="flex">
                         <img src="./src/assets/image/png/footer-logo.png" alt="footer-logo">
                     </a>
